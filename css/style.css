@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: url(https://img.freepik.com/free-vector/black-striped-background-simple-pattern-white-vector_53876-151306.jpg?q=10&h=200);
+	
+}
+nav {
+	background: #363636;
+	width: 100%;
+	overflow: auto;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.box {
+	max-width: 1450px;
+	margin: auto;
+	background: url(https://content.instructables.com/FAX/YOBQ/I7N66ER3/FAXYOBQI7N66ER3.jpg?auto=webp&frame=1&width=320&md=00a5df9e72503531011ced1432fa681fjpg);
+	overflow: auto;
+}
+h1{
+	text-align: center;
+	font-family: Lucida Handwriting;
+	font-size: 50px;
+}
+.rainbow-text {
+  background-image: linear-gradient(to left, black, black, black, black, black, black, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+li{
+	float: left;
+}
+nav a{
+	width: 120px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background: #363636;
+	font-size: 17px;
+	color: white;
+	padding: 20px 10px;
+	font-family: helvetica;
+}
+nav a:hover{
+	background: #363636;
+	color: white;
+}
+p {
+	text-align: center;
+	font-family:  Arial;
+}
+h2 {
+	text-align: center;
+	font-family: Verdana;
+}
+h3 {
+	text-align: center;
+	font-family: Verdana;
+}
+.container {
+	max-width: 1200px;
+	margin: auto;
+	background: #d4d4d4;
+	overflow: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.gallery {
+	margin: 5px;
+	border: 1px solid #000000;
+	float: left;
+	width: 390px;
+}
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+.desc {
+	padding: 15px;
+	text-align: center;
+}
+footer {
+	padding:10px;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	background: #363636;
+	color: rgb(255, 255, 255);
+	font-family: Arial;
+}
